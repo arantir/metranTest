@@ -28,110 +28,111 @@
         /// </summary>
         private void InitializeComponent()
         {
-            buttonTestsStart = new Button();
-            labelTest1 = new Label();
-            labelTest2 = new Label();
-            labelTest3 = new Label();
-            labelTest1Result = new Label();
-            labelTest2Result = new Label();
-            labelTest3Result = new Label();
-            labelStatus = new Label();
-            SuspendLayout();
+            this.buttonTestsStart = new System.Windows.Forms.Button();
+            this.labelTest1 = new System.Windows.Forms.Label();
+            this.labelTest2 = new System.Windows.Forms.Label();
+            this.labelTest3 = new System.Windows.Forms.Label();
+            this.labelTest1Result = new System.Windows.Forms.Label();
+            this.labelTest2Result = new System.Windows.Forms.Label();
+            this.labelTest3Result = new System.Windows.Forms.Label();
+            this.labelStatus = new System.Windows.Forms.Label();
+            this.SuspendLayout();
             // 
             // buttonTestsStart
             // 
-            buttonTestsStart.Location = new Point(33, 402);
-            buttonTestsStart.Margin = new Padding(5);
-            buttonTestsStart.Name = "buttonTestsStart";
-            buttonTestsStart.Size = new Size(118, 38);
-            buttonTestsStart.TabIndex = 0;
-            buttonTestsStart.Text = "запуск";
-            buttonTestsStart.UseVisualStyleBackColor = true;
-            buttonTestsStart.Click += buttonTestsStart_Click;
+            this.buttonTestsStart.Location = new System.Drawing.Point(33, 402);
+            this.buttonTestsStart.Margin = new System.Windows.Forms.Padding(5);
+            this.buttonTestsStart.Name = "buttonTestsStart";
+            this.buttonTestsStart.Size = new System.Drawing.Size(118, 38);
+            this.buttonTestsStart.TabIndex = 0;
+            this.buttonTestsStart.Text = "запуск";
+            this.buttonTestsStart.UseVisualStyleBackColor = true;
+            this.buttonTestsStart.Click += new System.EventHandler(this.buttonTestsStart_Click);
             // 
             // labelTest1
             // 
-            labelTest1.AutoSize = true;
-            labelTest1.Location = new Point(33, 45);
-            labelTest1.Name = "labelTest1";
-            labelTest1.Size = new Size(64, 25);
-            labelTest1.TabIndex = 1;
-            labelTest1.Text = "Тест 1";
+            this.labelTest1.AutoSize = true;
+            this.labelTest1.Location = new System.Drawing.Point(33, 45);
+            this.labelTest1.Name = "labelTest1";
+            this.labelTest1.Size = new System.Drawing.Size(64, 25);
+            this.labelTest1.TabIndex = 1;
+            this.labelTest1.Text = "Тест 1";
             // 
             // labelTest2
             // 
-            labelTest2.AutoSize = true;
-            labelTest2.Location = new Point(33, 96);
-            labelTest2.Name = "labelTest2";
-            labelTest2.Size = new Size(64, 25);
-            labelTest2.TabIndex = 2;
-            labelTest2.Text = "Тест 2";
+            this.labelTest2.AutoSize = true;
+            this.labelTest2.Location = new System.Drawing.Point(33, 96);
+            this.labelTest2.Name = "labelTest2";
+            this.labelTest2.Size = new System.Drawing.Size(64, 25);
+            this.labelTest2.TabIndex = 2;
+            this.labelTest2.Text = "Тест 2";
             // 
             // labelTest3
             // 
-            labelTest3.AutoSize = true;
-            labelTest3.Location = new Point(33, 148);
-            labelTest3.Name = "labelTest3";
-            labelTest3.Size = new Size(64, 25);
-            labelTest3.TabIndex = 3;
-            labelTest3.Text = "Тест 3";
+            this.labelTest3.AutoSize = true;
+            this.labelTest3.Location = new System.Drawing.Point(33, 148);
+            this.labelTest3.Name = "labelTest3";
+            this.labelTest3.Size = new System.Drawing.Size(64, 25);
+            this.labelTest3.TabIndex = 3;
+            this.labelTest3.Text = "Тест 3";
             // 
             // labelTest1Result
             // 
-            labelTest1Result.AutoSize = true;
-            labelTest1Result.Location = new Point(120, 45);
-            labelTest1Result.Name = "labelTest1Result";
-            labelTest1Result.Size = new Size(36, 25);
-            labelTest1Result.TabIndex = 4;
-            labelTest1Result.Text = "---";
+            this.labelTest1Result.AutoSize = true;
+            this.labelTest1Result.Location = new System.Drawing.Point(120, 45);
+            this.labelTest1Result.Name = "labelTest1Result";
+            this.labelTest1Result.Size = new System.Drawing.Size(36, 25);
+            this.labelTest1Result.TabIndex = 4;
+            this.labelTest1Result.Text = "---";
             // 
             // labelTest2Result
             // 
-            labelTest2Result.AutoSize = true;
-            labelTest2Result.Location = new Point(120, 96);
-            labelTest2Result.Name = "labelTest2Result";
-            labelTest2Result.Size = new Size(36, 25);
-            labelTest2Result.TabIndex = 5;
-            labelTest2Result.Text = "---";
+            this.labelTest2Result.AutoSize = true;
+            this.labelTest2Result.Location = new System.Drawing.Point(120, 96);
+            this.labelTest2Result.Name = "labelTest2Result";
+            this.labelTest2Result.Size = new System.Drawing.Size(36, 25);
+            this.labelTest2Result.TabIndex = 5;
+            this.labelTest2Result.Text = "---";
             // 
             // labelTest3Result
             // 
-            labelTest3Result.AutoSize = true;
-            labelTest3Result.Location = new Point(120, 148);
-            labelTest3Result.Name = "labelTest3Result";
-            labelTest3Result.Size = new Size(36, 25);
-            labelTest3Result.TabIndex = 6;
-            labelTest3Result.Text = "---";
+            this.labelTest3Result.AutoSize = true;
+            this.labelTest3Result.Location = new System.Drawing.Point(120, 148);
+            this.labelTest3Result.Name = "labelTest3Result";
+            this.labelTest3Result.Size = new System.Drawing.Size(36, 25);
+            this.labelTest3Result.TabIndex = 6;
+            this.labelTest3Result.Text = "---";
             // 
             // labelStatus
             // 
-            labelStatus.AutoSize = true;
-            labelStatus.Location = new Point(33, 283);
-            labelStatus.Name = "labelStatus";
-            labelStatus.Size = new Size(36, 25);
-            labelStatus.TabIndex = 7;
-            labelStatus.Text = "---";
+            this.labelStatus.AutoSize = true;
+            this.labelStatus.Location = new System.Drawing.Point(33, 283);
+            this.labelStatus.Name = "labelStatus";
+            this.labelStatus.Size = new System.Drawing.Size(36, 25);
+            this.labelStatus.TabIndex = 7;
+            this.labelStatus.Text = "---";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(11F, 25F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(761, 499);
-            Controls.Add(labelStatus);
-            Controls.Add(labelTest3Result);
-            Controls.Add(labelTest2Result);
-            Controls.Add(labelTest1Result);
-            Controls.Add(labelTest3);
-            Controls.Add(labelTest2);
-            Controls.Add(labelTest1);
-            Controls.Add(buttonTestsStart);
-            Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            Margin = new Padding(5);
-            Name = "Form1";
-            Text = "Form1";
-            Load += Form1_Load;
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(761, 499);
+            this.Controls.Add(this.labelStatus);
+            this.Controls.Add(this.labelTest3Result);
+            this.Controls.Add(this.labelTest2Result);
+            this.Controls.Add(this.labelTest1Result);
+            this.Controls.Add(this.labelTest3);
+            this.Controls.Add(this.labelTest2);
+            this.Controls.Add(this.labelTest1);
+            this.Controls.Add(this.buttonTestsStart);
+            this.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Margin = new System.Windows.Forms.Padding(5);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
