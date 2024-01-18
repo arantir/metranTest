@@ -36,6 +36,12 @@
             this.labelTest2Result = new System.Windows.Forms.Label();
             this.labelTest3Result = new System.Windows.Forms.Label();
             this.labelStatus = new System.Windows.Forms.Label();
+            this.labelTest1Var1 = new System.Windows.Forms.Label();
+            this.labelTest2Var1 = new System.Windows.Forms.Label();
+            this.labelTest3Var1 = new System.Windows.Forms.Label();
+            this.labelTest2Var2 = new System.Windows.Forms.Label();
+            this.labelTest3Var2 = new System.Windows.Forms.Label();
+            this.labelTest3Var3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // buttonTestsStart
@@ -112,11 +118,71 @@
             this.labelStatus.TabIndex = 7;
             this.labelStatus.Text = "---";
             // 
+            // labelTest1Var1
+            // 
+            this.labelTest1Var1.AutoSize = true;
+            this.labelTest1Var1.Location = new System.Drawing.Point(282, 45);
+            this.labelTest1Var1.Name = "labelTest1Var1";
+            this.labelTest1Var1.Size = new System.Drawing.Size(36, 25);
+            this.labelTest1Var1.TabIndex = 8;
+            this.labelTest1Var1.Text = "---";
+            // 
+            // labelTest2Var1
+            // 
+            this.labelTest2Var1.AutoSize = true;
+            this.labelTest2Var1.Location = new System.Drawing.Point(282, 96);
+            this.labelTest2Var1.Name = "labelTest2Var1";
+            this.labelTest2Var1.Size = new System.Drawing.Size(36, 25);
+            this.labelTest2Var1.TabIndex = 9;
+            this.labelTest2Var1.Text = "---";
+            // 
+            // labelTest3Var1
+            // 
+            this.labelTest3Var1.AutoSize = true;
+            this.labelTest3Var1.Location = new System.Drawing.Point(282, 148);
+            this.labelTest3Var1.Name = "labelTest3Var1";
+            this.labelTest3Var1.Size = new System.Drawing.Size(36, 25);
+            this.labelTest3Var1.TabIndex = 10;
+            this.labelTest3Var1.Text = "---";
+            // 
+            // labelTest2Var2
+            // 
+            this.labelTest2Var2.AutoSize = true;
+            this.labelTest2Var2.Location = new System.Drawing.Point(411, 96);
+            this.labelTest2Var2.Name = "labelTest2Var2";
+            this.labelTest2Var2.Size = new System.Drawing.Size(36, 25);
+            this.labelTest2Var2.TabIndex = 11;
+            this.labelTest2Var2.Text = "---";
+            // 
+            // labelTest3Var2
+            // 
+            this.labelTest3Var2.AutoSize = true;
+            this.labelTest3Var2.Location = new System.Drawing.Point(411, 148);
+            this.labelTest3Var2.Name = "labelTest3Var2";
+            this.labelTest3Var2.Size = new System.Drawing.Size(36, 25);
+            this.labelTest3Var2.TabIndex = 12;
+            this.labelTest3Var2.Text = "---";
+            // 
+            // labelTest3Var3
+            // 
+            this.labelTest3Var3.AutoSize = true;
+            this.labelTest3Var3.Location = new System.Drawing.Point(556, 148);
+            this.labelTest3Var3.Name = "labelTest3Var3";
+            this.labelTest3Var3.Size = new System.Drawing.Size(36, 25);
+            this.labelTest3Var3.TabIndex = 13;
+            this.labelTest3Var3.Text = "---";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(761, 499);
+            this.Controls.Add(this.labelTest3Var3);
+            this.Controls.Add(this.labelTest3Var2);
+            this.Controls.Add(this.labelTest2Var2);
+            this.Controls.Add(this.labelTest3Var1);
+            this.Controls.Add(this.labelTest2Var1);
+            this.Controls.Add(this.labelTest1Var1);
             this.Controls.Add(this.labelStatus);
             this.Controls.Add(this.labelTest3Result);
             this.Controls.Add(this.labelTest2Result);
@@ -145,5 +211,11 @@
         private Label labelTest2Result;
         private Label labelTest3Result;
         private Label labelStatus;
+        private Label labelTest1Var1;
+        private Label labelTest2Var1;
+        private Label labelTest3Var1;
+        private Label labelTest2Var2;
+        private Label labelTest3Var2;
+        private Label labelTest3Var3;
     }
 }
