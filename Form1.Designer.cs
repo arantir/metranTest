@@ -42,11 +42,16 @@
             this.labelTest2Var2 = new System.Windows.Forms.Label();
             this.labelTest3Var2 = new System.Windows.Forms.Label();
             this.labelTest3Var3 = new System.Windows.Forms.Label();
+            this.textBoxNameProduct = new System.Windows.Forms.TextBox();
+            this.labelNameProduct = new System.Windows.Forms.Label();
+            this.comboBoxTests = new System.Windows.Forms.ComboBox();
+            this.labelPath = new System.Windows.Forms.Label();
+            this.textBoxPath = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // buttonTestsStart
             // 
-            this.buttonTestsStart.Location = new System.Drawing.Point(33, 402);
+            this.buttonTestsStart.Location = new System.Drawing.Point(33, 326);
             this.buttonTestsStart.Margin = new System.Windows.Forms.Padding(5);
             this.buttonTestsStart.Name = "buttonTestsStart";
             this.buttonTestsStart.Size = new System.Drawing.Size(118, 38);
@@ -112,16 +117,17 @@
             // labelStatus
             // 
             this.labelStatus.AutoSize = true;
-            this.labelStatus.Location = new System.Drawing.Point(33, 283);
+            this.labelStatus.Font = new System.Drawing.Font("Segoe UI", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelStatus.Location = new System.Drawing.Point(33, 224);
             this.labelStatus.Name = "labelStatus";
-            this.labelStatus.Size = new System.Drawing.Size(36, 25);
+            this.labelStatus.Size = new System.Drawing.Size(62, 47);
             this.labelStatus.TabIndex = 7;
             this.labelStatus.Text = "---";
             // 
             // labelTest1Var1
             // 
             this.labelTest1Var1.AutoSize = true;
-            this.labelTest1Var1.Location = new System.Drawing.Point(282, 45);
+            this.labelTest1Var1.Location = new System.Drawing.Point(374, 45);
             this.labelTest1Var1.Name = "labelTest1Var1";
             this.labelTest1Var1.Size = new System.Drawing.Size(36, 25);
             this.labelTest1Var1.TabIndex = 8;
@@ -130,7 +136,7 @@
             // labelTest2Var1
             // 
             this.labelTest2Var1.AutoSize = true;
-            this.labelTest2Var1.Location = new System.Drawing.Point(282, 96);
+            this.labelTest2Var1.Location = new System.Drawing.Point(374, 96);
             this.labelTest2Var1.Name = "labelTest2Var1";
             this.labelTest2Var1.Size = new System.Drawing.Size(36, 25);
             this.labelTest2Var1.TabIndex = 9;
@@ -139,7 +145,7 @@
             // labelTest3Var1
             // 
             this.labelTest3Var1.AutoSize = true;
-            this.labelTest3Var1.Location = new System.Drawing.Point(282, 148);
+            this.labelTest3Var1.Location = new System.Drawing.Point(374, 148);
             this.labelTest3Var1.Name = "labelTest3Var1";
             this.labelTest3Var1.Size = new System.Drawing.Size(36, 25);
             this.labelTest3Var1.TabIndex = 10;
@@ -148,7 +154,7 @@
             // labelTest2Var2
             // 
             this.labelTest2Var2.AutoSize = true;
-            this.labelTest2Var2.Location = new System.Drawing.Point(411, 96);
+            this.labelTest2Var2.Location = new System.Drawing.Point(503, 96);
             this.labelTest2Var2.Name = "labelTest2Var2";
             this.labelTest2Var2.Size = new System.Drawing.Size(36, 25);
             this.labelTest2Var2.TabIndex = 11;
@@ -157,7 +163,7 @@
             // labelTest3Var2
             // 
             this.labelTest3Var2.AutoSize = true;
-            this.labelTest3Var2.Location = new System.Drawing.Point(411, 148);
+            this.labelTest3Var2.Location = new System.Drawing.Point(503, 148);
             this.labelTest3Var2.Name = "labelTest3Var2";
             this.labelTest3Var2.Size = new System.Drawing.Size(36, 25);
             this.labelTest3Var2.TabIndex = 12;
@@ -166,17 +172,68 @@
             // labelTest3Var3
             // 
             this.labelTest3Var3.AutoSize = true;
-            this.labelTest3Var3.Location = new System.Drawing.Point(556, 148);
+            this.labelTest3Var3.Location = new System.Drawing.Point(648, 148);
             this.labelTest3Var3.Name = "labelTest3Var3";
             this.labelTest3Var3.Size = new System.Drawing.Size(36, 25);
             this.labelTest3Var3.TabIndex = 13;
             this.labelTest3Var3.Text = "---";
+            // 
+            // textBoxNameProduct
+            // 
+            this.textBoxNameProduct.Location = new System.Drawing.Point(171, 330);
+            this.textBoxNameProduct.Name = "textBoxNameProduct";
+            this.textBoxNameProduct.Size = new System.Drawing.Size(255, 32);
+            this.textBoxNameProduct.TabIndex = 14;
+            // 
+            // labelNameProduct
+            // 
+            this.labelNameProduct.AutoSize = true;
+            this.labelNameProduct.Location = new System.Drawing.Point(171, 288);
+            this.labelNameProduct.Name = "labelNameProduct";
+            this.labelNameProduct.Size = new System.Drawing.Size(228, 25);
+            this.labelNameProduct.TabIndex = 15;
+            this.labelNameProduct.Text = "Идентификатор изделия:";
+            // 
+            // comboBoxTests
+            // 
+            this.comboBoxTests.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxTests.FormattingEnabled = true;
+            this.comboBoxTests.Items.AddRange(new object[] {
+            "Тест 1",
+            "Тест 2",
+            "Тест 3"});
+            this.comboBoxTests.Location = new System.Drawing.Point(510, 328);
+            this.comboBoxTests.Name = "comboBoxTests";
+            this.comboBoxTests.Size = new System.Drawing.Size(121, 33);
+            this.comboBoxTests.TabIndex = 16;
+            // 
+            // labelPath
+            // 
+            this.labelPath.AutoSize = true;
+            this.labelPath.Location = new System.Drawing.Point(33, 394);
+            this.labelPath.Name = "labelPath";
+            this.labelPath.Size = new System.Drawing.Size(57, 25);
+            this.labelPath.TabIndex = 17;
+            this.labelPath.Text = "Путь:";
+            // 
+            // textBoxPath
+            // 
+            this.textBoxPath.Location = new System.Drawing.Point(171, 391);
+            this.textBoxPath.Name = "textBoxPath";
+            this.textBoxPath.Size = new System.Drawing.Size(255, 32);
+            this.textBoxPath.TabIndex = 18;
+            this.textBoxPath.Text = "C://SomeDir";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(761, 499);
+            this.Controls.Add(this.textBoxPath);
+            this.Controls.Add(this.labelPath);
+            this.Controls.Add(this.comboBoxTests);
+            this.Controls.Add(this.labelNameProduct);
+            this.Controls.Add(this.textBoxNameProduct);
             this.Controls.Add(this.labelTest3Var3);
             this.Controls.Add(this.labelTest3Var2);
             this.Controls.Add(this.labelTest2Var2);
@@ -207,15 +264,20 @@
         private Label labelTest1;
         private Label labelTest2;
         private Label labelTest3;
-        private Label labelTest1Result;
-        private Label labelTest2Result;
-        private Label labelTest3Result;
-        private Label labelStatus;
-        private Label labelTest1Var1;
-        private Label labelTest2Var1;
-        private Label labelTest3Var1;
-        private Label labelTest2Var2;
-        private Label labelTest3Var2;
-        private Label labelTest3Var3;
+        public Label labelTest1Result;
+        public Label labelTest2Result;
+        public Label labelTest3Result;
+        public Label labelStatus;
+        public Label labelTest1Var1;
+        public Label labelTest2Var1;
+        public Label labelTest3Var1;
+        public Label labelTest2Var2;
+        public Label labelTest3Var2;
+        public Label labelTest3Var3;
+        public Label labelNameProduct;
+        private ComboBox comboBoxTests;
+        public Label labelPath;
+        public TextBox textBoxPath;
+        public TextBox textBoxNameProduct;
     }
 }
