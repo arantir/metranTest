@@ -77,7 +77,7 @@ namespace metranTest
                         {
                             labelStatus.Invoke(() => labelStatus.Text = "Выполнение теста 1");
                             //Задаём время теста
-                            for (int i = 0; i < s.rNum(1, 3) * 10; i++)
+                            for (int i = 0; i < s.rNum(10, 30) * 10; i++)
                             {
                                 //Проверяем нужно ли продолжать тест. Либо продолжаем либо прерываем.
                                 if (trdWork)
@@ -118,7 +118,7 @@ namespace metranTest
                         {
                             labelStatus.Invoke(() => labelStatus.Text = "Выполнение теста 2");
                             //Задаём время теста
-                            for (int i = 0; i < s.rNum(1, 3) * 10; i++)
+                            for (int i = 0; i < s.rNum(10, 30) * 10; i++)
                             {
                                 //Проверяем нужно ли продолжать тест. Либо продолжаем либо прерываем.
                                 if (trdWork)
@@ -161,7 +161,7 @@ namespace metranTest
                         {
                             labelStatus.Invoke(() => labelStatus.Text = "Выполнение теста 3");
                             //Задаём время теста
-                            for (int i = 0; i < s.rNum(1, 3) * 10; i++)
+                            for (int i = 0; i < s.rNum(10, 30) * 10; i++)
                             {
                                 //Проверяем нужно ли продолжать тест. Либо продолжаем либо прерываем.
                                 if (trdWork)
